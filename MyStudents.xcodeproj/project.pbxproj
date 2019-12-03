@@ -14,6 +14,7 @@
 		9CDA8706237C499700708A62 /* MyStudents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA8704237C499700708A62 /* MyStudents.xcdatamodeld */; };
 		9CDA8708237C499A00708A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA8707237C499A00708A62 /* Assets.xcassets */; };
 		9CDA870B237C499A00708A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA8709237C499A00708A62 /* LaunchScreen.storyboard */; };
+		9CDA8713237C4A3300708A62 /* MyStudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA8712237C4A3300708A62 /* MyStudentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9CDA8707237C499A00708A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CDA870A237C499A00708A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CDA870C237C499A00708A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDA8712237C4A3300708A62 /* MyStudentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStudentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9CDA8709237C499A00708A62 /* LaunchScreen.storyboard */,
 				9CDA870C237C499A00708A62 /* Info.plist */,
 				9CDA8704237C499700708A62 /* MyStudents.xcdatamodeld */,
+				9CDA8712237C4A3300708A62 /* MyStudentsTableViewController.swift */,
 			);
 			path = MyStudents;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDA8713237C4A3300708A62 /* MyStudentsTableViewController.swift in Sources */,
 				9CDA8700237C499700708A62 /* ViewController.swift in Sources */,
 				9CDA86FC237C499700708A62 /* AppDelegate.swift in Sources */,
 				9CDA86FE237C499700708A62 /* SceneDelegate.swift in Sources */,
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.susie.MyStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.susie.MyStudents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
